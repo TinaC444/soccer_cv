@@ -1,0 +1,5 @@
+Install These:
+python -m pip install ultralytics opencv-python
+
+Venv source:
+source .venv/bin/activate

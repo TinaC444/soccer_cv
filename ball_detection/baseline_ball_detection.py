@@ -3,6 +3,9 @@ from pathlib import Path
 import cv2
 from ultralytics import YOLO
 
+#tests existing yolo model's "sports ball"
+#also reports how many frames contain the ball
+
 
 BASE_DIR = Path(__file__).resolve().parent
 INPUT_VIDEO = BASE_DIR / "videos" / "test_15s.mp4"

@@ -2,6 +2,7 @@ from pathlib import Path
 
 import cv2
 
+#processes every video in videos then saves 10th frame as jpg in dataset/raw
 
 BASE_DIR = Path(__file__).resolve().parent
 VIDEOS_DIR = BASE_DIR / "videos"

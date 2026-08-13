@@ -4,6 +4,9 @@ from pathlib import Path
 
 from ultralytics import YOLO
 
+#fine tunes yolo on a very small dataset in mini_test,
+#copies best checkpoint to models/mini_test_ball_best.pt
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATASET_DIR = PROJECT_ROOT / "dataset" / "mini_test"

@@ -1,5 +1,5 @@
 Install These:
-python -m pip install ultralytics opencv-python
+python -m pip install ultralytics opencv-python pandas matplotlib
 
 Venv source:
 source .venv/bin/activate

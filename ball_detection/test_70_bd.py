@@ -28,7 +28,7 @@ def main() -> None:
         batch=BATCH,
         imgsz=1280,
         val=True,
-        plots=False,
+        plots=True,
         project=str(TRAINING_RUNS_DIR),
         name="test_70_ball",
     )
@@ -39,7 +39,7 @@ def main() -> None:
         data=str(DATA_YAML),
         split="val",
         imgsz=1280,
-        plots=False,
+        plots=True,
         project=str(TRAINING_RUNS_DIR),
         name="test_70_ball_val",
     )
